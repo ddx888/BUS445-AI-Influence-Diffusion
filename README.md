@@ -14,7 +14,7 @@ When a business launches a new AI product, who should hear about it first? This 
 - **Networks:** two undirected, unweighted networks built from the 40 contact nominations: a *mutual report* baseline (both students name each other, 11 connections) and an *either report* comparison (at least one student names the other, 29 connections).
 - **Simulation:** an Independent Cascade model at assumed transmission probabilities of 10%, 25%, and 50%, with 10,000 runs per network, strategy, and probability.
 
-The full write-up is in `Final_Report.docx`.
+The full write-up is in `Final Written Term Group Project Report.docx`.
 
 ## Files in this repository
 
@@ -25,7 +25,7 @@ The full write-up is in `Final_Report.docx`.
 | `project.py` | Builds the directed nomination network and writes a per-participant summary (nominations made and received) to `AI_Network_Summary.xlsx` |
 | `project2.py` | Builds the mutual and either-report networks and prints their characteristics (density, average degree, components, isolates) |
 | `project3.py` | Centrality analysis, seed selection, Independent Cascade simulation, paired comparisons against random selection, tables, and figures |
-| `Final_Report.docx` | Final written report (placeholder until the finalized version is uploaded) |
+| `Final Written Term Group Project Report.docx` | Final written report |
 | `results/` | Output files created by `project3.py` |
 
 ## Setup
@@ -114,3 +114,4 @@ Per the course guidelines, AI assistance used for the items below is listed here
 |---|---|
 | Environment | Guidance on creating, checking, and sharing the conda environment (`environment.yml`). |
 | This README | Drafted with Claude and reviewed by the group. |
+| Tables | Helped create tables in final report. |
