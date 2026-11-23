@@ -1,0 +1,134 @@
+{
+  "random_seed": 4452026,
+  "runs_per_configuration": 10000,
+  "nominations": 40,
+  "network_stats": {
+    "either_report": {
+      "nodes": 18,
+      "edges": 29,
+      "density": 0.1895424836601307,
+      "average_degree": 3.2222222222222223,
+      "components": [
+        [
+          "P01",
+          "P04",
+          "P07",
+          "P08",
+          "P09",
+          "P10",
+          "P11",
+          "P12",
+          "P14",
+          "P20",
+          "P21",
+          "P22",
+          "P23",
+          "P25",
+          "P28",
+          "P30"
+        ],
+        [
+          "P26"
+        ],
+        [
+          "P29"
+        ]
+      ],
+      "isolates": [
+        "P26",
+        "P29"
+      ],
+      "dominant_eigenvalue": 4.59952055501046
+    },
+    "mutual_report": {
+      "nodes": 18,
+      "edges": 11,
+      "density": 0.0718954248366013,
+      "average_degree": 1.2222222222222223,
+      "components": [
+        [
+          "P01",
+          "P04",
+          "P07",
+          "P08",
+          "P09",
+          "P14",
+          "P22",
+          "P23",
+          "P25",
+          "P30"
+        ],
+        [
+          "P11",
+          "P12"
+        ],
+        [
+          "P10"
+        ],
+        [
+          "P20"
+        ],
+        [
+          "P21"
+        ],
+        [
+          "P26"
+        ],
+        [
+          "P28"
+        ],
+        [
+          "P29"
+        ]
+      ],
+      "isolates": [
+        "P10",
+        "P20",
+        "P21",
+        "P26",
+        "P28",
+        "P29"
+      ],
+      "dominant_eigenvalue": 2.4171132408862777
+    }
+  },
+  "seed_sets": {
+    "either_report": {
+      "degree_centrality": [
+        "P09",
+        "P20",
+        "P22"
+      ],
+      "betweenness": [
+        "P30",
+        "P20",
+        "P09"
+      ],
+      "eigenvector": [
+        "P09",
+        "P20",
+        "P23"
+      ]
+    },
+    "mutual_report": {
+      "degree_centrality": [
+        "P07",
+        "P09",
+        "P23"
+      ],
+      "betweenness": [
+        "P07",
+        "P09",
+        "P08"
+      ],
+      "eigenvector": [
+        "P09",
+        "P23",
+        "P30"
+      ]
+    }
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "networkx": "3.5"
+}
